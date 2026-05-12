@@ -66,9 +66,20 @@ out/
 .visualstudio/
 *.code-workspace
 
-# Environment variables (but NOT .env files checked in for template purposes)
+# Environment variables and API keys
+.env
 .env.local
 .env.*.local
+.env.production
+.env.development
+.env.test
+.env.*
+!.env.example
+config.local.js
+secrets.js
+credentials.json
+*.pem
+*.key
 
 # OS
 .DS_Store
