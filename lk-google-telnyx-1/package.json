@@ -1,0 +1,27 @@
+{
+  "name": "lk-google-telnyx-1",
+  "version": "1.0.0",
+  "description": "A voice AI agent powered by Google Gemini 2.5 Flash Native Audio, built with [LiveKit Agents](https://github.com/livekit/agents) for real-time voice conversations. Supports both local testing and telephony via Telnyx SIP trunking.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryklunaris/lk-google-telnyx-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryklunaris/lk-google-telnyx-1/issues"
+  },
+  "homepage": "https://github.com/henryklunaris/lk-google-telnyx-1#readme",
+  "dependencies": {
+    "backboard-sdk": "^1.4.12",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  }
+}
